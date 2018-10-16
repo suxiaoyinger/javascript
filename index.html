@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
+    <title>神奇动物在我家</title>
+    <link rel="shortcut icon" href="https://assets.dajieimg.com/images/favicon.ico"/>
+	<!--<link rel="stylesheet" href="css/swiper.min.css">-->
+	<link rel="stylesheet" href="css/main.css?_=97978">
+    <link rel="stylesheet" href="css/animation.css?_=23241">
+    <!--<script type="text/javascript" src="js/flexibl.js"></script>-->
+    <script src="js/zepto.min.js"></script>
+    <script src="js/jdAutoVideoDiret.js?_=6436"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="http://special.dajie.com/html/djappshare/dajieWebViewBridge.js"></script>
+    <script type="text/javascript" src="js/sharewx.js?_=67838"></script>
+    <script type="text/javascript" src="js/main.js?_=4364364"></script>
+</head>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?87acd9ccc4f1a32d64fe02263ecee245";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<body>
+<!--<div class="tip">-->
+    <!--<img src="img/p/lockTip.png?_123" style="width: 44%;position: absolute;top:30%;left:28%;">-->
+<!--</div>-->
+<div class="wrap loading mod1" id='loader'>
+    <div style="width: 38.7%;position: absolute;top:38%;left: 30%;">
+        <span style="position: absolute;width: 100%;top:0;left:0%;" class="loadbar">
+            <span style="font-size: 30px;color:#5d2d18;font-weight: bold;display: inline-block;" class="loadNum">20%</span>
+            <span style="width: 21%;display: inline-block;position: absolute;bottom:0;left:10%;" class="loadpic1 loadpic">
+                <img _src="img/p/load_g1.png">
+                <img _src="img/p/load_g2.png" class="none">
+                <img _src="img/p/load_g2.png" class="none">
+            </span>
+            <span style="width: 19.6%;position: absolute;bottom:0;left: 12%;" class="loadpic loadpic2 none">
+                <img _src="img/p/load_d1.png">
+                <img _src="img/p/load_d2.png" class="none">
+                <img _src="img/p/load_d3.png" class="none">
+                <img _src="img/p/load_d4.png" class="none">
+                <img _src="img/p/load_d5.png" class="none">
+                <img _src="img/p/load_d6.png" class="none">
+                <img _src="img/p/load_d7.png" class="none">
+            </span>
+            <span style="width: 27%;position: absolute;bottom:0;left:12%;" class="loadpic3 none">
+                <img _src="img/p/load_y1.png">
+                <img _src="img/p/load_y2.png" class="none">
+                <img _src="img/p/load_y3.png" class="none">
+            </span>
+        </span>
+    </div>
+    <div style="position: absolute;width: 38.7%;top:45%;left:30%;">
+        <img _src="img/p/load_k.png">
+        <div style="width: 100%;height: 100%;overflow: hidden;position: absolute;top:0;opacity: 0;" id="load_p">
+            <img _src="img/p/load_p.png" style="height: 100%;position: absolute;width: 100%;top:0;">
+        </div>
+        <img _src="img/p/load.png" style="width: 100%;position: absolute;top:0;">
+    </div>
+</div>
+<div class="wrap mod1 page1 none" style="">
+    <div class="isimg" style="width: 100%;height: 100%;position: fixed;top:0;left:0;">
+        <img _src="img/p/bg11.jpg" style="width: 100%;height: 100%;display: block;">
+        <img class="top1" _src="img/p/a_top1.png" style="width:22%;position: absolute;top:0;left:0%;">
+        <img class="top2" _src="img/p/a_top2.png" style="width: 14%;position:absolute;top:0;left:24%;">
+        <img class="top3" _src="img/p/a_top3.png" style="width:17%;top:0;right: 22%;position: absolute;">
+        <img class="right1" _src="img/p/a_r.png" style="height: 100%;position: absolute;bottom:0;right:0%;width: auto;">
+        <img class="left1" _src="img/p/a_l.png" style="width: 37%;position: absolute;bottom:0;left:0%;">
+        <img class="slogan1" _src="img/p/slogan.png" style="width: 44%;position: absolute;top:0;left:28%;">
+        <img class="slogan2" _src="img/p/slogan_l.png" style="width: 44%;position: absolute;top:0;left:28%;">
+        <img class="botword2" _src="img/p/bot_w2.png" style="width: 28.6%;position: absolute;bottom:0%;left:35.7%;">
+        <img class="botword1" _src="img/p/bot_w.png" style="width: 28.6%;position: absolute;bottom:0%;left:35.7%;">
+        <img _src="img/p/a_m2.png" class="huli2">
+        <img class="tvl" _src="img/p/tv_l.png">
+        <img class="tvr" _src="img/p/tv_r.png">
+        <img class="tvm" _src="img/p/tv_b.png">
+        <!--<img src="img/p/">-->
+        <img _src="img/p/a_m1.png" class="huli1">
+        <img _src="img/p/xu/x1_1.png" class="xu1">
+        <img _src="img/p/xu/x1_2.png" class="xu1 none">
+        <img _src="img/p/xu/x1_3.png" class="xu1 none">
+        <img _src="img/p/xu/x1_4.png" class="xu1 none">
+        <img _src="img/p/xu/x1_5.png" class="xu1 none">
+        <img _src="img/p/xu/x1_6.png" class="xu1 none">
+        <img _src="img/p/xu/x1_7.png" class="xu1 none">
+        <img _src="img/p/xu/x1_8.png" class="xu1 none">
+        <img _src="img/p/xu/x1_9.png" class="xu1 none">
+        <img _src="img/p/xu/x1_10.png" class="xu1 none">
+        <img _src="img/p/xu/x1_11.png" class="xu1 none">
+        <img _src="img/p/xu/x1_12.png" class="xu1 none">
+
+        <img _src="img/p/xu/dog1_1.png" class="meng1">
+        <img _src="img/p/xu/dog1_2.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_3.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_4.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_5.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_6.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_7.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_8.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_9.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_10.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_11.png" class="meng1 none">
+        <img _src="img/p/xu/dog1_12.png" class="meng1 none">
+
+        <img _src="img/p/xu/x2_1.png" class="xu2">
+        <img _src="img/p/xu/x2_2.png" class="xu2 none">
+        <img _src="img/p/xu/x2_3.png" class="xu2 none">
+        <img _src="img/p/xu/x2_4.png" class="xu2 none">
+        <img _src="img/p/xu/x2_5.png" class="xu2 none">
+        <img _src="img/p/xu/x2_6.png" class="xu2 none">
+        <img _src="img/p/xu/x2_7.png" class="xu2 none">
+        <img _src="img/p/xu/x2_8.png" class="xu2 none">
+        <img _src="img/p/xu/x2_9.png" class="xu2 none">
+        <img _src="img/p/xu/x2_10.png" class="xu2 none">
+        <img _src="img/p/xu/x2_11.png" class="xu2 none">
+        <img _src="img/p/xu/x2_12.png" class="xu2 none">
+
+        <img _src="img/p/xu/g2_1.png" class="meng2">
+        <img _src="img/p/xu/g2_2.png" class="meng2 none">
+        <img _src="img/p/xu/g2_3.png" class="meng2 none">
+        <img _src="img/p/xu/g2_4.png" class="meng2 none">
+        <img _src="img/p/xu/g2_5.png" class="meng2 none">
+        <img _src="img/p/xu/g2_6.png" class="meng2 none">
+        <img _src="img/p/xu/g2_7.png" class="meng2 none">
+        <img _src="img/p/xu/g2_8.png" class="meng2 none">
+        <img _src="img/p/xu/g2_9.png" class="meng2 none">
+        <img _src="img/p/xu/g2_10.png" class="meng2 none">
+        <img _src="img/p/xu/g2_11.png" class="meng2 none">
+        <img _src="img/p/xu/g2_12.png" class="meng2 none">
+
+        <img _src="img/p/xu/x3_1.png" class="xu3">
+        <img _src="img/p/xu/x3_2.png" class="xu3 none">
+        <img _src="img/p/xu/x3_3.png" class="xu3 none">
+        <img _src="img/p/xu/x3_4.png" class="xu3 none">
+        <img _src="img/p/xu/x3_5.png" class="xu3 none">
+        <img _src="img/p/xu/x3_6.png" class="xu3 none">
+        <img _src="img/p/xu/x3_7.png" class="xu3 none">
+        <img _src="img/p/xu/x3_8.png" class="xu3 none">
+        <img _src="img/p/xu/x3_9.png" class="xu3 none">
+        <img _src="img/p/xu/x3_10.png" class="xu3 none">
+        <img _src="img/p/xu/x3_11.png" class="xu3 none">
+        <img _src="img/p/xu/x3_12.png" class="xu3 none">
+
+        <img _src="img/p/xu/f3_1.png" class="meng3">
+        <img _src="img/p/xu/f3_2.png" class="meng3 none">
+        <img _src="img/p/xu/f3_3.png" class="meng3 none">
+        <img _src="img/p/xu/f3_4.png" class="meng3 none">
+        <img _src="img/p/xu/f3_5.png" class="meng3 none">
+        <img _src="img/p/xu/f3_6.png" class="meng3 none">
+        <img _src="img/p/xu/f3_7.png" class="meng3 none">
+        <img _src="img/p/xu/f3_8.png" class="meng3 none">
+        <img _src="img/p/xu/f3_9.png" class="meng3 none">
+        <img _src="img/p/xu/f3_10.png" class="meng3 none">
+        <img _src="img/p/xu/f3_11.png" class="meng3 none">
+        <img _src="img/p/xu/f3_12.png" class="meng3 none">
+
+        <span class="tvl" style="height:28%;"></span>
+        <span class="tvr" style="height:35%;"></span>
+        <span class="tvm" style="height:35%;"></span>
+
+        <!--<img _src="img/p/music1.png" class="musicBtn1">-->
+    </div>
+
+</div>
+<img src="img/p/music1.png" class="musicBtn1 mu1 none" style="z-index:-1;bottom: 20px;right: 20px;transform:rotate(90deg);top: auto;width: 14%;">
+<img src="img/p/music1.png" class="musicBtn1 mu2 none" style="z-index:-1;">
+
+<img src="img/p/jump.png?_=123" class="jump jump1 none" style="bottom: 20px;right: 20px;transform:rotate(90deg);top: auto;width: 14%;">
+<img src="img/p/jump.png?_=123" class="jump jump2 none" style="z-index:200;">
+
+<div class="wrap mod2 videoDiv none" style="z-index: 120"><!--http://video.yztwork.com/animal-->
+   <video class="video-box1" id="audioFile1" playsinline="" src="http://video.yztwork.com/animal/yu4.mp4" x-webkit-airplay="true" webkit-playsinline="true" x5-video-player-type="h5" x5-vide="" o-player-fullscreen="true" preload="auto" style="opacity: 1;"></video>
+    <!--<img src="img/p/jump.png" class="jump">-->
+</div>
+<div class="wrap mod1 videoDiv none" style="z-index: 120">
+    <video class="video-box" id="audioFile2" playsinline="" src="http://video.yztwork.com/animal/gui5.mp4?_=545" x-webkit-airplay="true" webkit-playsinline="true" x5-video-player-type="h5" x5-vide="" o-player-fullscreen="true" preload="auto" style="opacity: 1;"></video>
+    <!--<img src="img/p/jump.png" class="jump">-->
+</div>
+<div class="wrap mod1 videoDiv none" style="z-index: 120">
+    <video class="video-box" id="audioFile3" playsinline="" src="http://video.yztwork.com/animal/dog5.mp4?_=32432" x-webkit-airplay="true" webkit-playsinline="true" x5-video-player-type="h5" x5-vide="" o-player-fullscreen="true" preload="auto" style="opacity: 1;"></video>
+    <!--<img src="img/p/jump.png" class="jump">-->
+</div>
+<div class="wrap mod2 page21 none" style="z-index: 130">
+    <div style="width: 100%;height: 100%;position: relative;" class="isimg">
+        <img _src="img/p/ban_y.png" style="position: absolute;width: 11%;bottom:2%;left:5%;" class="du">
+        <!--<img _src="img/p/du_w.png" style="width: 37.8%;position: absolute;top:25%;right:10%;" class="duWord">-->
+        <img _src="img/p/du_w1.png" style="width: 37.8%;position: absolute;top:25%;right:20%;opacity: 0;" class="duWord1">
+        <img _src="img/p/du_w2.png" style="width: 37.8%;position: absolute;top:38%;right:20%;opacity: 0;" class="duWord2">
+        <!--<img _src="img/p/jump.png" class="jump">-->
+    </div>
+</div>
+<div class="wrap mod1 page22 none" style="z-index: 130">
+    <div style="width: 100%;height: 100%;position: relative;" class="isimg">
+        <img _src="img/p/ban_g.png" style="position: absolute;width: 8%;bottom:52%;left:28%;" class="du">
+        <!--<img _src="img/p/du_w.png" style="width: 37.8%;position: absolute;top:25%;right:10%;" class="duWord">-->
+        <img _src="img/p/du_w1.png" style="width: 37.8%;position: absolute;top:25%;right:20%;opacity: 0;" class="duWord1">
+        <img _src="img/p/du_w2.png" style="width: 37.8%;position: absolute;top:38%;right:20%;opacity: 0;" class="duWord2">
+        <!--<img _src="img/p/jump.png" class="jump">-->
+    </div>
+</div>
+<div class="wrap mod1 page23 none" style="z-index: 130">
+    <div style="width: 100%;height: 100%;position: relative;" class="isimg">
+        <img _src="img/p/ban_d.png" style="position: absolute;width: 8%;bottom:17.5%;left:24%;" class="du">
+        <!--<img _src="img/p/du_w.png" style="width: 37.8%;position: absolute;top:25%;right:10%;" class="duWord">-->
+        <img _src="img/p/du_w1.png" style="width: 37.8%;position: absolute;top:25%;right:20%;opacity: 0;" class="duWord1">
+        <img _src="img/p/du_w2.png" style="width: 37.8%;position: absolute;top:38%;right:20%;opacity: 0;" class="duWord2">
+        <!--<img _src="img/p/jump.png" class="jump">-->
+    </div>
+</div>
+<div class="wrap mod1 page5 none isimg" style="z-index:129;">
+    <img _src="img/p/bg5.jpg" style="width: 100%;">
+</div>
+
+<div class="wrap mod page3 none" style="z-index: 130">
+    <div style="width: 100%;height: 100%;position: relative;" class="isimg">
+        <img _src="img/p/btn1.png?_=123" style="position: absolute;width:23%;top:48%;left:9%;" class="btn1">
+        <img _src="img/p/btn2.png?_=123" style="position: absolute;width: 23%;top:48%;left:38%;" class="btn2">
+        <img _src="img/p/btn3.png?_=123" style="position: absolute;width: 23%;top:48%;left:67%;" class="btn3">
+    </div>
+</div>
+<div class="wrap mod1 page4 isimg none" style="z-index: 130;background: rgba(0,0,0,0.3);">
+    <img _src="img/p/share_tisi.png" class="pic1">
+</div>
+<div class="wrap mod1 page41 isimg none" style="z-index: 130;background: rgba(0,0,0,0.3);">
+    <img _src="img/p/share_tisi2.png" class="pic2">
+</div>
+<audio src="img/bg.mp3?_=123" autoplay loop id="myMusic"></audio>
+</body>
+
+</html>
